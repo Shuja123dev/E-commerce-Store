@@ -27,6 +27,11 @@ const PopProduct = ({ product, addtoCart }) => {
         addtoCart(product.boxId, noItems);
     }
 
+    function showCart() {
+        document.getElementById('sideCart-box').style.right = "0%";
+        closeProductPop();
+    }
+
 
     return (
         <div className="pcart-inner">
@@ -46,6 +51,7 @@ const PopProduct = ({ product, addtoCart }) => {
                             <button className='add-btn' onClick={handleAdd}>+</button>
                         </div>
                         <button className='addToCart' onClick={closeProductPop}>Add to Cart</button>
+                        <button className='addToCart' style={{ marginLeft: '20px' }} onClick={showCart}>View Cart</button>
                     </form>
                 </div>
             </div>

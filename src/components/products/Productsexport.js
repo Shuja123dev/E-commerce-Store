@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import Products from './Products'
 
 export default function Productsexport({ productsArr, showProduct }) {

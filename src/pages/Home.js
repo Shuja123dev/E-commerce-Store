@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Catageory from '../components/catageory/Catageory'
 import Footer from '../components/footer/Footer'
 import Headers from '../components/header/Headers'
